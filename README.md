@@ -1,10 +1,10 @@
-# Project Name
+# Football LIVE
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://ruchkovlad.github.io/sports-app-landing/src/index.html)
 
-### Description
+### Landing page for mobile application
 
-Tell about your project
+Landing preview for mobile application about football match results 
 
 ### Technologies are used
 
