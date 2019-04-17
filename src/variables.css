@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+@font-face {
+  font-family: "Futura";
+  src: url("./fonts/FuturaBookC.woff");
+  src: local("Futura Book Cyrillic"),
+    local("FuturaBookC"),
+    url("./fonts/FuturaBookC.woff") format("woff");
+}
+
+html {
+  --font_lato: lato, sans-serif;
+  --font_roboto: roboto, sans-serif;
+  --font_futura: futura, sans-serif;
+
+  --first_slide_background: #f4f6f9;
+  --color_for_h: #333;
+  --color_for_p: #4f4f4f;
+  --black: #000;
+  --white: #fff;
+  --color_for_notifications: #eee;
+  --color_for_label: #979797;
+  --brand_color: #00adee;
+  --color_for_feedback: #828282;
+  --active_button: #b2b0b0;
+  --circle2: #979595;
+  --circle3: #cdcbcb;
+  --circle6: #e2e1e1;
+  --circle7: #f7f7f7;
+  --six_slide_background: #fafafa;
+}

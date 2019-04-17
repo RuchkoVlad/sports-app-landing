@@ -1,0 +1,367 @@
+@media (max-width: 1200px) {
+  .application,
+  .footer {
+    overflow: hidden;
+  }
+
+  .first_container {
+    background: var(--first_slide_background);
+    text-align: center;
+    height: 525px;
+  }
+
+  .logo {
+    margin: 32px 0 60px;
+    width: 150px;
+    height: 50px;
+  }
+
+  .title {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .h1_first {
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .h6_first {
+    width: 100%;
+  }
+
+  .two_buttons {
+    justify-content: center;
+  }
+
+  .second_container {
+    flex-direction: column-reverse;
+    text-align: center;
+    height: 100%;
+  }
+
+  .about_app {
+    padding: 0;
+  }
+
+  .p_second_slide {
+    width: 100%;
+  }
+
+  .arsenal-chelsea {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    background: none;
+    margin-top: 30px;
+    min-width: 0;
+    align-self: center;
+  }
+
+  .match {
+    width: 300px;
+    height: 145px;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 0 0 15px;
+    margin: 35px 0 0 17px;
+  }
+
+  .saturday {
+    font-size: 11px;
+  }
+
+  .arsenal,
+  .chelsea {
+    width: 53px;
+    height: 57px;
+  }
+
+  .arsenal {
+    right: 55px;
+  }
+
+  .form_notifications {
+    height: 33px;
+    bottom: -30px;
+  }
+
+  .turn-on {
+    font-size: 12px;
+    padding: 0 93px 0 15px;
+  }
+
+  .video {
+    position: static;
+    width: 270px;
+    height: 150px;
+    margin: 0 0 0 97px;
+  }
+
+  .third_container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .howToUse {
+    margin: 0;
+  }
+
+  .start_img {
+    margin-right: 37px;
+  }
+
+  .icon_mobile {
+    right: 1px;
+  }
+
+  .fourth_container {
+    text-align: center;
+    align-items: center;
+  }
+
+  .first_list {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .container_six {
+    height: 100%;
+  }
+
+  .ul_partners {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .download {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .download_right {
+    margin: 0;
+    text-align: center;
+  }
+
+  .download_frame {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 10px 0 0;
+    margin-top: 20px;
+  }
+
+  .logo2 {
+    margin-left: 40px;
+  }
+
+  .nav_a {
+    margin-right: 10px;
+  }
+
+  .button_right {
+    right: -40px;
+  }
+
+  .button_left {
+    left: -1000px;
+  }
+
+  .feedback_one {
+    margin: 0 53px 0 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .arsenal-chelsea {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 360px) {
+  .application,
+  .footer {
+    overflow: hidden;
+  }
+
+  .first_container {
+    background: none;
+    text-align: center;
+    height: 525px;
+  }
+
+  .logo {
+    margin: 32px 0 60px;
+    width: 150px;
+    height: 50px;
+  }
+
+  .title {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .h1_first {
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .h6_first {
+    width: 100%;
+  }
+
+  .two_buttons {
+    justify-content: center;
+  }
+
+  .second_container {
+    flex-direction: column-reverse;
+    text-align: center;
+    height: 100%;
+  }
+
+  .about_app {
+    padding: 0;
+  }
+
+  .p_second_slide {
+    width: 100%;
+  }
+
+  .arsenal-chelsea {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    background: none;
+    margin-top: 30px;
+    min-width: 0;
+    align-self: flex-start;
+  }
+
+  .match {
+    width: 245px;
+    height: 130px;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 0 0 15px;
+    margin: 35px 0 0 17px;
+  }
+
+  .saturday {
+    font-size: 11px;
+  }
+
+  .arsenal,
+  .chelsea {
+    width: 53px;
+    height: 57px;
+  }
+
+  .arsenal {
+    right: 55px;
+  }
+
+  .form_notifications {
+    height: 33px;
+    bottom: -30px;
+  }
+
+  .turn-on {
+    font-size: 12px;
+    padding: 0 93px 0 15px;
+  }
+
+  .video {
+    position: static;
+    width: 250px;
+    height: 150px;
+    margin: 0 0 0 97px;
+  }
+
+  .third_container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .howToUse {
+    margin: 0;
+  }
+
+  .start_img {
+    margin-right: 37px;
+  }
+
+  .icon_mobile {
+    right: 1px;
+  }
+
+  .fourth_container {
+    text-align: center;
+    align-items: center;
+  }
+
+  .first_list {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .container_six {
+    height: 100%;
+  }
+
+  .ul_partners {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .download {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .download_right {
+    margin: 0;
+    text-align: center;
+  }
+
+  .download_frame {
+    margin-top: 50px;
+    width: 100%;
+    height: 260px;
+    background-size: cover;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 10px 0 0;
+  }
+
+  .logo2 {
+    margin-left: 40px;
+  }
+
+  .nav_a {
+    margin-right: 10px;
+  }
+
+  .button_right {
+    right: -40px;
+  }
+
+  .button_left {
+    left: -1000px;
+  }
+
+  .feedback_one {
+    margin: 0 53px 0 0;
+  }
+}
