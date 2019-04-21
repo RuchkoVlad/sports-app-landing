@@ -402,7 +402,7 @@ body {
 }
 
 @keyframes dot {
-  100%  {
+  100% {
     transform: rotate(360deg);
   }
 }
