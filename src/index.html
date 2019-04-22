@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
   <title>Football Live</title>
   <link rel="stylesheet" type="text/css" href="../lib/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="../lib/slick/slick-theme.css">
   <link href="main.css" rel="stylesheet">
   <link href="../lib/animation.css" rel="stylesheet">
   <link rel="stylesheet" href="../lib/animation.css">
-  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-        name="viewport">
+  <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
     <div class="arsenal-chelsea">
       <div class="match">
         <time class="saturday" datetime="2019-03-23 12:35">Sat, 12:35</time>
-        <p>Arsenal v <br>Chelsea</p>
+        <p class="match__team">Arsenal v <br>Chelsea</p>
         <span>Friendly Match</span>
         <img class="arsenal" src="img/arsenal.png" alt="logo fc Arsenal">
         <img class="chelsea" src="img/chelsea.png" alt="logo fc Chealsea">
@@ -53,8 +54,8 @@
           </label>
         </form>
       </div>
-      <video class="video" controls="controls" poster="./img/poster.svg">
-        <source src="img/videoplayback.mp4" type="video/mp4">
+      <video class="video" controls="controls" >
+        <source src="img/videoplayback.mp4#t=28,148" type="video/mp4">
       </video>
     </div>
     <section class="about_app">
@@ -328,7 +329,7 @@
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="../lib/slick/slick.min.js"></script>
 <script src="js.js"></script>
-<script src="wow.min.js"></script>
+<script src="../lib/wow.min.js"></script>
 <script>
   new WOW().init();
 </script>
