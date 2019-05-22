@@ -10,4 +10,7 @@ Landing preview for mobile application about football match results
 
 - HTML
 - CSS
-- ...
+- WOW.js
+- slick
+- responsive design
+
